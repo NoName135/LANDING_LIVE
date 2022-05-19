@@ -12,8 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family: 'Noto Sans TC', sans-serif;">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <h1 class="h4 fw-bold text-dark"><i class="h3 bi bi-record-fill text-info"></i>小懶蟲</h1>
@@ -74,8 +74,8 @@
   <section class="py-5" style="background-image: url(images/bg_paper.png);" id="service">
     <div class="container">
       <h2 class="text-center fw-bold mb-4">你有這些煩惱嗎？</h2>
-      <div class="row row-cols-1 row-cols-lg-4 mb-4 g-3 g-lg-4">
-        <div class="col">
+      <ul class="list-unstyled row row-cols-1 row-cols-lg-4 mb-4 g-3 g-lg-4">
+        <li class="col">
           <div class="card border-0 shadow">
             <div class="card-body text-center py-4">
               <i class="bi bi-trash-fill text-info fs-cus-48"></i>
@@ -83,8 +83,8 @@
               <p class="card-text text-secondary lh-lg">每天追垃圾很煩嗎？倒個垃圾<br>還要走出門好累對吧？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow">
             <div class="card-body text-center py-4">
               <i class="bi bi-tree-fill text-info fs-cus-48"></i>
@@ -92,8 +92,8 @@
               <p class="card-text text-secondary lh-lg">覺得很可愛所以買一堆，結果<br>根本不會照顧，快死光了？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow">
             <div class="card-body text-center py-4">
               <i class="bi bi-journal-x text-info fs-cus-48"></i>
@@ -101,8 +101,8 @@
               <p class="card-text text-secondary lh-lg">什麼微積分、程式設計、或是<br>設計稿，不會做也不想做？</p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        </li>
+        <li class="col">
           <div class="card border-0 shadow">
             <div class="card-body text-center py-4">
               <i class="bi bi-emoji-frown text-info fs-cus-48"></i>
@@ -110,15 +110,15 @@
               <p class="card-text text-secondary lh-lg">每天都把時間花在不想做的事<br>情就飽了，怎麼快樂？</p>
             </div>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   </section>
 
   <section class="container py-5" id="payment">
     <h2 class="fw-bold text-center mb-4">方案費用</h2>
-    <div class="row row-cols-1 row-cols-lg-3 g-4">
-      <div class="col">
+    <ul class="list-unstyled row row-cols-1 row-cols-lg-3 g-4">
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="h4 card-header border-0 bg-light text-secondary fw-bold text-center">小小搭懶蟲</div>
           <div class="card-body text-center flex-grow-0">
@@ -134,8 +134,8 @@
             <button type="button" class="btn btn-info w-100 align-self-end">選擇方案</button>
           </div>
         </div>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="h4 card-header border-0 bg-info text-white fw-bold text-center">睡一整天囉</div>
           <div class="card-body text-center">
@@ -152,8 +152,8 @@
             <button type="button" class="btn btn-info w-100">選擇方案</button>
           </div>
         </div>
-      </div>
-      <div class="col">
+      </li>
+      <li class="col">
         <div class="card border-0 shadow h-100">
           <div class="h4 card-header border-0 bg-light text-secondary fw-bold text-center">自由自在的人生</div>
           <div class="card-body text-center flex-grow-0">
@@ -170,8 +170,8 @@
             <button type="button" class="btn btn-info w-100 align-self-end">選擇方案</button>
           </div>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </section>
 
   <footer>
@@ -180,29 +180,29 @@
         <h2 class="text-center fw-bold mb-4">需要其他協助嗎？</h2>
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <div class="row row-cols-1 row-cols-lg-3 g-4">
-              <div class="col">
+            <ul class="list-unstyled row row-cols-1 row-cols-lg-3 g-4">
+              <li class="col">
                 <div class="card border-0 shadow">
                   <div class="card-body py-4 bg-white text-center">
-                    <a href="#" class="h4 text-dark stretched-link text-decoration-none"><i class="bi bi-telephone-fill text-info me-2"></i>07-555-666</a>
+                    <a href="tel:+886-7-555-666" class="h4 text-dark stretched-link text-decoration-none"><i class="bi bi-telephone-fill text-info me-2"></i>07-555-666</a>
                   </div>
                 </div>
-              </div>
-              <div class="col">
+              </li>
+              <li class="col">
                 <div class="card border-0 shadow">
                   <div class="card-body py-4 bg-white text-center">
                     <a href="#" class="h4 text-dark stretched-link text-decoration-none"><i class="bi bi-facebook text-info me-2"></i>我就是個小懶蟲</a>
                   </div>
                 </div>
-              </div>
-              <div class="col">
+              </li>
+              <li class="col">
                 <div class="card border-0 shadow">
                   <div class="card-body py-4 bg-white text-center">
                     <a href="questions.html" class="h4 text-dark stretched-link text-decoration-none"><i class="bi bi-question-lg text-info me-2"></i>常見問題</a>
                   </div>
                 </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
